@@ -40,7 +40,7 @@ MobileCore.trackState("Order Confirmation", cdata);
 #### Syntax
 
 ```objectivec
-[contextData setObject:@"Category;Product;Quantity;Price[,Category;Product;Quantity;Price]" forKey:@"&&products"];
+[contextData setObject:@"Category;Product;Quantity;Price,Category;Product;Quantity;Price" forKey:@"&&products"];
 ```
 
 #### Example
